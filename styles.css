@@ -1,13 +1,16 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+
+
 li .poem {
-    color: red;
+    line-height: 5px;
 }
 
 img {
     height: 100px;
     width: 75%;
+    border-color: black;
 }
 
 
