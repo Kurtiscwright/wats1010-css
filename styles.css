@@ -1,6 +1,73 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+header {
+  text-align: center;
+}
+
+body {
+  background-color: #ffffcc;
+  font-family: 'Arimo', sans-serif;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin: 15px;
+    padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.more-info {
+  float: right;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.info-links {
+  margin: 0;
+  padding: 15px;
+}
+/*I wanted to do this just through the .info-links tag, but I could not get the links to form a line*/
+li {
+  display: inline;
+}
+
+.poem {
+    border-radius: 100px;
+    text-align: center;
+    line-height: 20px;
+    background-image: url("images/hiking-the-sand-dunes.jpg");
+  width: 900px;
+  height: 500px;
+  border: 10px black;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+
+.citation {
+  margin: 5px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+ .page-credits {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
