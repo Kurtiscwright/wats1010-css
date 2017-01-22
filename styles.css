@@ -13,7 +13,6 @@ body {
 img {
     height: 400px;
     width: 300px;
-    border-color: black;
     float: right;
     margin: 15px;
     padding: 0;
@@ -42,6 +41,7 @@ li {
 }
 
 .poem {
+    border-radius: 100px;
     text-align: center;
     line-height: 20px;
     background-image: url("images/hiking-the-sand-dunes.jpg");
